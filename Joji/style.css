@@ -1,0 +1,74 @@
+body{
+ 
+       
+        background-image: linear-gradient(345deg,#85C296 1%, #5EB9A7, #5F9CAE, #4F6A7E, #424A59);
+        background-attachment: fixed;
+        font-family: "Funnel Display", sans-serif;
+        @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+        
+     }
+nav{
+    text-align: center;
+    font-size: 1em;
+    margin: 40px;
+}
+     
+        
+     
+main{
+      
+        width: 150px;
+        height: 500px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #1e22298e;
+       margin: 60px auto;
+       
+}
+
+h1{
+        text-align: center;
+        background-color: rgb(199, 199, 199);
+        width: 500px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #1e22298e;
+        margin: auto;
+        font-family: "Funnel Display", sans-serif;
+        font-size: 3em;
+        
+}
+h2{
+      width: 400px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #1e22298e;
+       margin: 0px auto;
+       text-align: center;
+}
+article{
+     margin: 30px;
+    text-align: justify;
+    color: azure;
+    text-indent: 30px;
+}
+form{
+     margin: 50px;
+    text-align: justify;
+    color: azure;
+    text-indent: 30px;
+}
+
+footer{
+    text-align: center;
+    color: #424A59;
+}
+h3{
+    border-left-width: 41px;border-left-style: solid;
+}
+.centro{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

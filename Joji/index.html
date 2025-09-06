@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joji no Brasil</title>
+    <link rel="shortcut icon" href="imgens/joji.ico" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+    <h1>Meu Site</h1>
+    <nav>
+      <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ" target="_blank">Sobre</a>
+      <a href="index.html">Blog</a>
+      <a href="mailto:douglaspcosta15@gmail.com">Contato</a>
+    </nav>
+  </header>
+<hr>
+<section>
+    <h1>Finalmente Joji estará no Brasil!</h1> <br>
+    
+
+  <article> 
+    <h2>ALGUNS FATOS SOBRE JOJI:</h2>
+        <p>
+            Joji, nome artístico de <strong>George Kusunoki Miller</strong>, nasceu em 18 de setembro de 1992 em Osaka, Japão, e tem descendência japonesa e australiana. Antes de se tornar um músico reconhecido mundialmente, 
+            ele ficou famoso na internet com seus personagens de humor no YouTube, como <strong>Filthy Frank</strong> e <strong>Pink Guy</strong>. Apesar do sucesso, em 2017 Joji decidiu deixar essa
+            fase para trás e seguir o que realmente desejava: a carreira musical. A expectativa é enorme, já que essa será a primeira vez que o artista desembarca por aqui. Os fãs brasileiros, conhecidos por sua energia contagiante, já estão ansiosos para cantar em coro os grandes sucessos e viver uma experiência que promete ser inesquecível.
+        </p>
+        <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ" target="_blank"><img src="imgens/jojii.jpg" alt="foto de joji" width="600" class="centro"></a>
+  </article>
+</section>
+
+<section>
+  <article>
+    <h2>Sobre o evento:</h2>
+        <p>
+            Ingressos à 
+            venda a partir do dia 15 de Setembro de 2025 no site oficial do artista e nos pontos credenciados
+        </p>
+   </article>   
+   
+   <article>
+    Datas confirmadas
+    <ul>
+        <li>São Paulo - 18 de Outubro de 2025, às 21h</li>
+        <li>Rio de Janeiro - 21 de Outubro de 2025, às 20h</li>
+        <li>Cocal Do Sul - 26 de Outubro de 2025, às 19h</li>
+        <li>Criciúma - 30 de Outubro de 2025, às 21h</li>
+    </ul>
+   </article>   
+</section>
+
+    <h3>Preencha com seus dados os campos abaixo:</h3>
+
+<form>
+    <label for="nome">Nome completo:</label>
+    <input type="text"  id="nome" name="nome" placeholder="Digite seu nome">
+    <br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="Digite seu E-mail">
+    <br><br>
+
+    <label for="date">Data de nascimento:</label>
+    <input type="date" id="date" name="date" placeholder="Selecione sua data de nascimento"
+    value="2025-09-02"
+    min="1900-12-31" max="2015-12-31">
+    <br><br>
+
+    <label for="tel">Numero de telefone:</label>
+    <input type="number" id="tel" name="tel" placeholder="+55 00 0000-0000">
+    <br><br>
+
+    <label for="cor">Escolha uma cor:</label>
+    <input type="color" id="cor" name="cor" value="#ff0000">
+    <br><br>
+
+    <label for="obs">Alguma observação?</label>
+    <input type="text" name="obs" id="obs" placeholder="...">
+    <br><br>
+
+    <p>Fluente em:</p>
+
+    <input type="checkbox" name="idioma" id="ing">
+    <label for="ing">Inglês</label>
+
+    <input type="checkbox" name="idioma" id="esp">
+    <label for="esp">Espanhol</label>
+
+    <input type="checkbox" name="idioma" id="ita">
+    <label for="ita">Italiano</label>
+
+    <input type="checkbox" name="idioma" id="rus">
+    <label for="rus">Russo</label>
+
+    <input type="checkbox" name="idioma" id="jap">
+    <label for="jap">Japonês</label>
+
+    <input type="checkbox" name="idioma" id="fr">
+    <label for="fr">Francês</label>
+    <br><br>
+
+    <p>Qual seu gênero?</p>
+
+    <input type="radio" name="gen" id="gen">
+    <label for="gen">Masculino</label><br>
+    <input type="radio" name="gen" id="gen">
+    <label for="gen">Feminino</label> <br>
+    <input type="radio" name="gen" id="gen">
+    <label for="gen">Prefiro não dizer</label>
+    <br><br>
+
+<label for="dia">Data do Show:</label>
+<select name="dia" id="dia">
+  <optgroup label="Escolha um dia">
+    <option> 18 de Outubro </option>
+    <option> 21 de Outubro </option>
+    <option> 26 de Outubro </option>
+    <option> 30 de Outubro </option>
+  </optgroup>
+</select><br><br>
+      
+    <p>Filtro de Preço</p>
+    <input type="range" id="preco" name="preco" min="45" max="230">
+    <label> $530+ </label>
+    <br><br>
+
+    <label for="cidade">Selecione a cidade do Show</label>
+    <input type="text" id="cidade" name="cidade" list="listacidade" placeholder="Escolha a cidade...">
+    <datalist id="listacidade">
+      <option>Rio de janeiro</option>
+      <option>São Paulo</option>
+      <option>Cocal Do Sul</option>
+      <option>Criciúma</option>
+    </datalist>
+    <br><br>
+    <input type="submit" value="Enviar Formulário">
+  </form> 
+<footer>
+  <nav>
+    <section>
+      <h3>Formas de contato</h3>
+        <ul>
+          <li>Douglas Costa</li>
+          <li><a href="mailto:douglaspcosta15@gmail.com" target="_blank">douglaspcosta15@gmail.com</a></li>
+          <li><a href="https://www.instagram.com/douglaskkjj/" target="_blank">Instagram</a></li>
+        </ul>
+    </section>
+  </nav>
+</footer>
+</body>
+</html>
